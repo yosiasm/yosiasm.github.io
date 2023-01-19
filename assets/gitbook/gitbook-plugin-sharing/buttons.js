@@ -1,78 +1,78 @@
-require(['gitbook', 'jquery'], function(gitbook, $) {
+require(['gitbook', 'jquery'], function (gitbook, $) {
     var SITES = {
         'facebook': {
             'label': 'Facebook',
             'icon': 'fa fa-facebook',
-            'onClick': function(e) {
+            'onClick': function (e) {
                 e.preventDefault();
-                window.open('http://www.facebook.com/sharer/sharer.php?s=100&p[url]='+encodeURIComponent(location.href));
+                window.open('http://www.facebook.com/sharer/sharer.php?s=100&p[url]=' + encodeURIComponent(location.href));
             }
         },
         'twitter': {
             'label': 'Twitter',
             'icon': 'fa fa-twitter',
-            'onClick': function(e) {
+            'onClick': function (e) {
                 e.preventDefault();
-                window.open('http://twitter.com/home?status='+encodeURIComponent(document.title+' '+location.href));
+                window.open('https://twitter.com/yosiasem');
             }
         },
         'github': {
             'label': 'Github',
             'icon': 'fa fa-github',
-            'onClick': function(e) {
+            'onClick': function (e) {
                 e.preventDefault();
-                window.open('https://github.com');
+                window.open('https://github.com/yosiasm');
             }
         },
         'telegram': {
             'label': 'Telegram',
             'icon': 'fa fa-telegram',
-            'onClick': function(e) {
+            'onClick': function (e) {
                 e.preventDefault();
                 window.open('https://t.me');
             }
         },
-        'google': {
-            'label': 'Google+',
-            'icon': 'fa fa-google-plus',
-            'onClick': function(e) {
+        'gmail': {
+            'label': 'Gmail',
+            'icon': 'fa fa-envelope',
+            'onClick': function (e) {
                 e.preventDefault();
-                window.open('https://plus.google.com/share?url='+encodeURIComponent(location.href));
+                window.open('mailto:yosiassuparno@gmail.com');
             }
         },
         'weibo': {
             'label': 'Weibo',
             'icon': 'fa fa-weibo',
-            'onClick': function(e) {
+            'onClick': function (e) {
                 e.preventDefault();
-                window.open('http://service.weibo.com/share/share.php?content=utf-8&url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title));
+                window.open('http://service.weibo.com/share/share.php?content=utf-8&url=' + encodeURIComponent(location.href) + '&title=' + encodeURIComponent(document.title));
             }
         },
-        'instapaper': {
-            'label': 'Instapaper',
-            'icon': 'fa fa-instapaper',
-            'onClick': function(e) {
+        'instagram': {
+            'label': 'Instagram',
+            'icon': 'fa fa-instagram',
+            'onClick': function (e) {
                 e.preventDefault();
-                window.open('http://www.instapaper.com/text?u='+encodeURIComponent(location.href));
+                window.open('http://www.instagram.com/yosiasem');
             }
         },
-        'vk': {
-            'label': 'VK',
-            'icon': 'fa fa-vk',
-            'onClick': function(e) {
+        'linkedin': {
+            'label': 'LinkedIn',
+            'icon': 'fa fa-linkedin',
+            'onClick': function (e) {
                 e.preventDefault();
-                window.open('http://vkontakte.ru/share.php?url='+encodeURIComponent(location.href));
+                window.open('https://www.linkedin.com/in/yosias-suparno-b4a162197/');
             }
         }
     };
 
 
 
-    gitbook.events.bind('start', function(e, config) {
+    gitbook.events.bind('start', function (e, config) {
         var opts = config.sharing;
 
         // Create dropdown menu
-        var menu = $.map(opts.all, function(id) {
+        var menu = $.map(opts.all, function (id) {
             var site = SITES[id];
 
             return {
@@ -92,19 +92,19 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         }
 
         // Direct actions to share
-        $.each(SITES, function(sideId, site) {
+        $.each(SITES, function (sideId, site) {
             if (!opts[sideId]) return;
 
             var onClick = site.onClick;
 
             if (sideId === "github" && opts["github_link"] !== undefined && opts["github_link"] !== "") {
-                onClick = function(e) {
+                onClick = function (e) {
                     e.preventDefault();
                     window.open(opts["github_link"]);
                 }
             }
             if (sideId === "telegram" && opts["telegram_link"] !== undefined && opts["telegram_link"] !== "") {
-                onClick = function(e) {
+                onClick = function (e) {
                     e.preventDefault();
                     window.open(opts["telegram_link"]);
                 }

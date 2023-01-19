@@ -1,13 +1,10 @@
             "sharing": {
-                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "github", "telegram"],
-                "facebook": true,
-                "google": false,
+                "all": ["gmail", "twitter", "github","instagram","linkedin"],
+                "gmail": true,
+                "gmail_link": "mailto:yosiassuparno@gmail.com",
                 "github": true,
-                "github_link": "https://github.com",
-                "telegram": false,
-                "telegram_link": "https://t.me",
-                "instapaper": false,
+                "github_link": "https://github.com/yosiasm",
                 "twitter": true,
-                "vk": false,
-                "weibo": false
+                "instagram":true,
+                "linkedin":true
             },
