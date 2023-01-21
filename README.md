@@ -12,4 +12,4 @@ If you find my projects quite interesting or would like to share feedback, feel 
 
 [![Friend?](assets/banner.jpg)](assets/banner.jpg)
 
-Thanks to [Tao He](https://github.com/sighingnow/) for his cool theme!
+Thanks to [Tao He](https://github.com/sighingnow/) for his cool jekyll theme!
