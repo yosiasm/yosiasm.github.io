@@ -1,5 +1,5 @@
 ---
-title: Aromatic Adventures💐👃
+title: Aromatic Adventures👃
 author: Yosias Suparno
 date: 2023-01-21
 category: Jekyll
@@ -83,5 +83,5 @@ We have learn how perfume composed. There are **unlimited posibility** to create
 ![image info](/assets/perfume/Versace-Eros-2-copy.jpg)
 In the end, I consider to buy Versace Eros because the bottle looks cool🙉
 
-I put stuff in [this](https://github.com/yosiasm/perfume-scraper-eda) repo.
+I put the stuff in [this](https://github.com/yosiasm/perfume-scraper-eda) repo.
 
