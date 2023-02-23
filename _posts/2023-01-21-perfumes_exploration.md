@@ -15,7 +15,7 @@ No label on the website tells me which one is popular. So, I have decided that t
 
 ![image info](/assets/perfume/popular.png)
 
-The chart above shows that Aventus from the brand Creed is the most popular among men.
+The chart above shows that **Aventus** from the brand **Creed** is the most popular among men.
 
 
 I thought, *"If I buy a popular perfume, does that mean I will blend in with the crowd?"*. So, I looked for a brand that might has suitable one for me.
@@ -56,7 +56,7 @@ The accord describes the overall aroma of a perfume. **Perfume notes** will tell
 
 ## Which perfume notes are the most popular?
 Pefume notes made of herbs, flower, fruit or any other stuff that smells unique.
-A perfume tipically composed of three types of notes: top, middle and base. The **top notes** were the initial scents we applied the first time. **Middlw notes** are the heart of the perfume. We will smell the aroma after the top notes have evaporated. **Base notes** is the scent that last longer in our skin or clothes.
+A perfume tipically composed of three types of notes: top, middle and base. The **top notes** were the initial scents we applied the first time. **Middle notes** are the heart of the perfume. We will smell the aroma after the top notes have evaporated. **Base notes** is the scent that last longer in our skin or clothes.
 
 Pie chart below will tell you favorite notes in perfume products.
 ![image info](/assets/perfume/male-notes.png)
