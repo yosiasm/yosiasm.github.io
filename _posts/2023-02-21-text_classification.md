@@ -7,7 +7,7 @@ layout: post
 cover: /assets/albert/banner.jpg
 ---
 
-![image info](/assets/albert/pic.jpg)
+![meme](/assets/albert/pic.jpg)
 First of all, I will start with some questions for you:
 
 1. Are you the person in charge of managing app development?
@@ -34,9 +34,11 @@ Then I manually labeling every topic by class number like list below:
 5. **Emergency**: The system is stop running
 
 from **12000+ records** now i just have to label **300+ topics**. Instead of a boring week, i got 15 minutes of fun and exciting task.
+![topic](/assets/albert/topic.jpg)
 
 ## Now What?
 Now I have to put label in topics into every question row. For every question that contain most of the word in topic, they will get the same label as topic. You can see example on table below. [Here](https://github.com/yosiasm/albert_text_classification/blob/main/find_label.py) is the script.
+![question label](/assets/albert/question_label.jpg)
 
 Then I split the dataframe into 2 groups, for data train and data test. I choose **80%** for data train and **20%** for data test. I make sure that data test contain exact number of category. This will help me know model performance more accurately.
 
@@ -57,7 +59,17 @@ After some consideration (I don't have enough GPU power to handle BERT), I found
 ## Let's Train It Now, Baby! 
 I trained the model using **PyTorch**, and for GPU computation, I used **CUDA**. I used cross-entropy as the loss function and Adam as the optimizer. The maximum encoding size, in my case, was 64. My GPU didn't have enough memory to handle anything beyond that number. I trained the model for five epochs, with each iteration taking around three minutes. You can access my training code for severity classification [here](https://github.com/yosiasm/albert_text_classification/blob/main/train_severity_model.py) and for stack group classification [here](https://github.com/yosiasm/albert_text_classification/blob/main/train_stack_group_model.py).
 
-The outcome of the training was a severity classification model with **71%** accuracy and a stack group classification model with **83%** accuracy. 
-If you want to evaluate its performance, one useful tool is a confusion matrix. A confusion matrix displays the number of true positives, true negatives, false positives, and false negatives for each class in your model. This information can help you better understand how well your model is performing and identify areas for improvement.
+The outcome of the training was a severity classification model with **70%** accuracy and a stack group classification model with **82%** accuracy. 
+If you want to evaluate its performance, one useful tool is a confusion matrix. A confusion matrix displays the number of true positives, true negatives, false positives, and false negatives for each class in your model. This information can help you better understand how well your model is performing and identify areas for improvement. Example code [here](https://github.com/yosiasm/albert_text_classification/blob/main/eval.ipynb)
+![severity model confusion matrix](/assets/albert/severity_confusion_matrix.png) 
 
+We can read it as: 715 critical errors can be predicted correctly by severity model. As we can see, we need more question data about **emergency** and **warning**.
+![stack group model confusion matrix](/assets/albert/stack_group_confusion_matrix.png)
 
+We can read it as: 961 database stack group can be predicted correctly by stack group model. We need more question data about **frontend** and **mobile**.
+
+## Deploy
+We can deploy this model via API so that other teams can use it. For quick development and testing, I used **FastAPI**. Check it out [here](https://github.com/yosiasm/albert_text_classification/blob/main/api.py)
+![api response](/assets/albert/api_response.jpg)
+
+Hope this help :)
