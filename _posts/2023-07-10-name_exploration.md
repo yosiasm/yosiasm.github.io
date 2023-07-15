@@ -10,7 +10,7 @@ cover: /assets/names/banner.jpg
 Tulisan ini lanjutan dari [Asep Rules Bumi Pasundan🙆‍♂️](/insights/2023-04-21-asep.html), sok atuh dibaca yang belum😉
 
 ## Horas!
-Dari data kemarin masa gaada sih nama dengan marga Bataknya? Ada dongs. Nih ya, aku dah kumpulin daftar marga Batak [disin](https://github.com/yosiasm/names_and_insights/blob/main/daftar_marga_batak.csv) terus kutandain namanya satu-satu di data tersebut.
+Dari data kemarin masa gaada sih nama dengan marga Bataknya? Ada dongs. Nih ya, aku dah kumpulin daftar marga Batak [disini](https://github.com/yosiasm/names_and_insights/blob/main/daftar_marga_batak.csv) terus kutandain namanya satu-satu di data tersebut.
 
 ![top_bottom_marga_batak](/assets/names/top_bottom_marga_batak.png)
 
