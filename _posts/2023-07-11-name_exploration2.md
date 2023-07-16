@@ -12,19 +12,21 @@ Tulisan ini lanjutan dari [Names & Insights🕵️‍♂️](/insights/2023-07-1
 ![gemini](/assets/names2/gemini.jpg)
 
 ## Aku Ga Percaya Ginian Tapi
-Kalau dihitung satu-satu ada 3 juta-an Gemini di Jawa Barat. Tapi Cancer jadi pemenangnya dengan hampir 4 juta orang tersebar di seluruh Jawa Barat 🦀
+Kalau dihitung satu-satu, ada 3 juta-an Gemini di Jawa Barat. Tapi Cancer jadi pemenangnya, dengan hampir 4 juta orang tersebar di seluruh Jawa Barat 🦀
 
 ![signs pie bar](/assets/names2/signs_pie_bar.png)
 
-Pas lihat *meme* di atas aku mulai berpikir kenapa Gemini tidak boleh masuk perkampungan tertentu. Kan bikin kepo ya. Tau ga? *Google Search Bar* bisa menjadi salah satu indikator *collective beliefs*.
+Pas lihat *meme* di atas, aku mulai berpikir, kenapa Gemini tidak boleh masuk perkampungan tertentu. Kan bikin kepo ya. Tau ga? *Google Search Bar* bisa menjadi salah satu indikator *collective beliefs*.
 
-Oiya buat yang belum tau apa itu CB 👉 **Collective belief refers to the shared beliefs, values, assumptions, and knowledge that are held by a group of individuals or a community. It represents the collective understanding and perspective of a group, influencing their behavior, decision-making, and social interactions. -chatgpt**
+Oiya buat yang belum tau apa itu CB 👇
+
+*"Collective belief refers to the shared beliefs, values, assumptions, and knowledge that are held by a group of individuals or a community. It represents the collective understanding and perspective of a group, influencing their behavior, decision-making, and social interactions."* -chatgpt
 
 ![google_search](/assets/names2/gemini_google.png)
 
-Pencarian rekomendasi dari *Google Search* menunjukan pencarian teratas atau kata kunci yang sering dicari orang-orang. Nah, bisa dilihat di atas, orang-orang punya kesepakatan tidak tertulis jika Gemini itu *red flag*, cuek, dihindari, *public enemy*, dan selalu gagal dalam percintaan
+Pencarian rekomendasi dari *Google Search* menunjukan pencarian teratas atau kata kunci yang sering dicari orang-orang. Nah, bisa dilihat di atas, orang-orang punya kesepakatan tidak tertulis jika Gemini itu *red flag*, cuek, dihindari, *public enemy*, dan selalu gagal dalam percintaan.
 
-Bagi temen-temen Gemini yang udah diusir dari perkampungan jangan bersedih ya. Aku sudah carikan beberapa lokasi yang populasi Gemini-nya cukup banyak sehingga kemungkinan besar mereka mau menerima kalian. Semangat!
+Bagi temen-temen Gemini yang sudah diusir dari perkampungan, jangan bersedih ya!🤸 Aku sudah carikan beberapa lokasi yang populasi Gemini-nya cukup banyak, sehingga kemungkinan besar mereka mau menerima kalian. Semangat!
 
 <object type="text/html" data="/assets/names2/gemini.html" style="width: 100%;height: 500px"></object>
 
@@ -41,11 +43,11 @@ Dapat dilihat bahwa memang lonjakan tersebut sudah dan terus terjadi sejak lampa
 
 ![weather](/assets/names2/indonesian_temperature.png)
 
-Walaupun data produksi manusia dan curah hujan di Jawa Barat memiliki rentang tahun yang berbeda, secara ideal nilai temperatur dan curah hujan tidak akan jauh berbeda pada rentang 1922-1999. Bisa dilihat pada *chart* di atas, bulan Juli hingga September memiliki curah hujan yang sedikit, bisa dibilang waktu tersebut adalah puncak musim kemarau🥵. Pada bulan terebut suhu juga menjadi lebih dingin daripada bulan-bulan lain. Bisa disimpulkan udara yang kering dan dingin menjadi salah satu faktor meningkatnya hasrat seksual. 
+Walaupun data produksi manusia dan curah hujan di Jawa Barat memiliki rentang tahun yang berbeda, secara ideal nilai temperatur dan curah hujan tidak akan jauh berbeda pada rentang tahun 1922-1999. Bisa dilihat pada *chart* di atas, bulan Juli hingga September memiliki curah hujan yang sedikit, bisa dibilang waktu tersebut adalah puncak musim kemarau🥵. Pada bulan tersebut suhu udara menjadi lebih dingin daripada bulan-bulan lainnya. Bisa disimpulkan, udara yang kering dan dingin menjadi salah satu faktor meningkatnya hasrat seksual. 
 
 *Let me tell you, Udin Petot is no joke!*
 
-Kalian pernah dengar ritual malem Jumat? Salah ya! Nih aku tunjukin!
+Kalian pernah dengar ritual malem Jumat? Ternyata ritual itu sebenarnya hanya melebih-lebihkan saja, kenapa begitu? Kalian bisa lihat pada *chart* di bawah ini:
 
 ![daily](/assets/names2/daily_distribution.png)
 
