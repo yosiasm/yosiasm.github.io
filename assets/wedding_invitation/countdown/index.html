@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Elegant Countdown Timer</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            /* Elegant gradient */
+            color: white;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 600;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+
+        /* Countdown Container */
+        .countdown-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px 30px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Individual Countdown Box */
+        .countdown-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            width: 100px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .time {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .label {
+            font-size: 1rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-top: 8px;
+            opacity: 0.8;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .countdown-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .countdown-box {
+                width: 80px;
+                padding: 10px;
+            }
+
+            .time {
+                font-size: 2.5rem;
+            }
+
+            .label {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Countdown Timer</h1>
+
+    <!-- Countdown Display -->
+    <div class="countdown-container">
+        <div class="countdown-box">
+            <div class="time" id="days">00</div>
+            <div class="label">Days</div>
+        </div>
+        <div class="countdown-box">
+            <div class="time" id="hours">00</div>
+            <div class="label">Hours</div>
+        </div>
+        <div class="countdown-box">
+            <div class="time" id="minutes">00</div>
+            <div class="label">Minutes</div>
+        </div>
+        <div class="countdown-box">
+            <div class="time" id="seconds">00</div>
+            <div class="label">Seconds</div>
+        </div>
+    </div>
+
+    <script>
+        // Set the target countdown date (YYYY-MM-DDTHH:MM:SS)
+        let countdownDate = new Date("2025-04-01T00:00:00").getTime();
+
+        function updateCountdown() {
+            let now = new Date().getTime();
+            let timeLeft = countdownDate - now;
+
+            if (timeLeft <= 0) {
+                document.querySelector(".countdown-container").innerHTML = "<h2>Time's up!</h2>";
+                clearInterval(countdownInterval);
+                return;
+            }
+
+            let days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+            let hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            let minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+            let seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+            // Format numbers with leading zeros
+            document.getElementById("days").innerHTML = String(days).padStart(2, "0");
+            document.getElementById("hours").innerHTML = String(hours).padStart(2, "0");
+            document.getElementById("minutes").innerHTML = String(minutes).padStart(2, "0");
+            document.getElementById("seconds").innerHTML = String(seconds).padStart(2, "0");
+        }
+
+        // Update countdown every second
+        let countdownInterval = setInterval(updateCountdown, 1000);
+        updateCountdown(); // Initial call to prevent delay
+    </script>
+
+</body>
+
+</html>
