@@ -102,11 +102,11 @@
   </div>
 
 
-  <audio id='music'>
+  <!-- <audio id='music'>
     <source src="/assets/wedding_invitation/music/racer.ogg">
     <source src="/assets/wedding_invitation/music/racer.mp3">
   </audio>
-  <span id="mute"></span>
+  <span id="mute"></span> -->
 
   <script src="/assets/wedding_invitation/stats.js"></script>
   <script src="/assets/wedding_invitation/common.js"></script>
@@ -652,10 +652,22 @@
         // Button Controls
         function bindButton(buttonId, keyVar) {
           const button = document.getElementById(buttonId);
-          button.addEventListener("mousedown", () => window[keyVar] = true);
-          button.addEventListener("touchstart", () => window[keyVar] = true);
-          button.addEventListener("mouseup", () => window[keyVar] = false);
-          button.addEventListener("touchend", () => window[keyVar] = false);
+
+          function activateKey(event) {
+            event.preventDefault();
+            window[keyVar] = true;
+          }
+
+          function deactivateKey(event) {
+            event.preventDefault();
+            window[keyVar] = false;
+          }
+
+          button.addEventListener("mousedown", activateKey);
+          button.addEventListener("touchstart", activateKey, { passive: false });
+
+          button.addEventListener("mouseup", deactivateKey);
+          button.addEventListener("touchend", deactivateKey, { passive: false });
         }
 
         bindButton("btnLeft", "keyLeft");
