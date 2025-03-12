@@ -9,6 +9,31 @@ cover: /assets/uhuy/banner.jpg
 
 <link rel="stylesheet" href="/assets/wedding_invitation/wedding.css">
 
+<!-- loading page -->
+<div id="wed-overlay">
+    <!-- <img src="/assets/wedding_invitation/images/content/opening-small-background.jpg" class="image-overlay-container" alt="Full Width Image"> -->
+    <div class="cover-container">
+      <img src="/assets/wedding_invitation/images/content/opening-small-background.jpg" alt="Image 3" class="cover-overlay">
+      <img src="/assets/wedding_invitation/images/content/opening-small-name2.png" alt="Image 1" class="cover-overlay">
+      <img src="/assets/wedding_invitation/images/content/opening-small-title.png" alt="Image 2" class="cover-overlay">
+    <div class="cover-overlay wed-close-section">
+        <span>Yth. Bapak/Ibu/Saudara/i</span>
+        <h3 id="receivername">Joko</h3> 
+        <span>
+Tanpa mengurangi rasa hormat,
+kami mengundang anda untuk menghadiri
+acara pernikahan kami.
+        </span>
+        <div class="loading-screen" id="loading-screen">
+          <span>please wait</span>
+          <img src="/assets/wedding_invitation/images/content/loading.gif" alt="Image 1" >
+        </div>
+        <button id="wed-close-btn" style="display: none">✉️ BUKA UNDANGAN</button>
+    </div>
+</div>
+</div>
+
+<!-- first gallery -->
 <div class="wed-image-wrapper">
   <div class="wed-image-container">
       <img src="/assets/wedding_invitation/images/content/earth-small2.jpg" alt="Image 1">
@@ -115,24 +140,7 @@ ATAS KEHADIRAN DAN DOA RESTUNYA
 
 <iframe src="/assets/wedding_invitation/game.html" style="width: 100%; aspect-ratio: 4 / 5; border: none;"></iframe>
 
-<div id="wed-overlay">
-    <!-- <img src="/assets/wedding_invitation/images/content/opening-small-background.jpg" class="image-overlay-container" alt="Full Width Image"> -->
-    <div class="cover-container">
-      <img src="/assets/wedding_invitation/images/content/opening-small-background.jpg" alt="Image 3" class="cover-overlay">
-      <img src="/assets/wedding_invitation/images/content/opening-small-name2.png" alt="Image 1" class="cover-overlay">
-      <img src="/assets/wedding_invitation/images/content/opening-small-title.png" alt="Image 2" class="cover-overlay">
-    <div class="cover-overlay wed-close-section">
-        <span>Yth. Bapak/Ibu/Saudara/i</span>
-        <h3 id="receivername">Joko</h3> 
-        <span>
-Tanpa mengurangi rasa hormat,
-kami mengundang anda untuk menghadiri
-acara pernikahan kami.
-        </span>
-        <button id="wed-close-btn">✉️ BUKA UNDANGAN</button>
-    </div>
-</div>
-</div>
+
 
 
 
@@ -156,4 +164,17 @@ acara pernikahan kami.
 
         // Update the value when the hash changes
         window.addEventListener("hashchange", updateHashValue);
+
+        // Wait for the full page to load
+        window.onload = function() {
+            // Hide the loading screen
+            document.getElementById("loading-screen").style.display = "none";
+            
+            // Show the content
+            // document.getElementById("content").style.display = "block";
+
+            // Enable the button
+            document.getElementById("wed-close-btn").style.display = "inline-block";
+        };
+
 </script>
