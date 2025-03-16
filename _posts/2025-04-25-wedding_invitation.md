@@ -24,11 +24,7 @@ Tanpa mengurangi rasa hormat,
 kami mengundang anda untuk menghadiri
 acara pernikahan kami.
         </span>
-        <div class="loading-screen" id="loading-screen">
-          <span>please wait</span>
-          <img src="/assets/wedding_invitation/images/content/loading.gif" alt="Image 1" >
-        </div>
-        <button id="wed-close-btn" style="display: none">✉️ BUKA UNDANGAN</button>
+        <button id="wed-close-btn">✉️ BUKA UNDANGAN</button>
     </div>
 </div>
 </div>
@@ -73,8 +69,8 @@ acara pernikahan kami.
 <script src="/assets/wedding_invitation/countdown.js"></script>
 
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0pJfOGfXolKFrlMUJIAiib?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3jyGsM8Jfk6163HADlNAIg?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0pJfOGfXolKFrlMUJIAiib?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3jyGsM8Jfk6163HADlNAIg?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
 
 
  <div class="verse-container">
@@ -103,12 +99,35 @@ dengan segala ...
           <div class="mempelai-box">
             <img src="/assets/wedding_invitation/images/content/flower.jpg" alt="Image 1">
           </div>
-          <div class="mempelai-detail-box">
+          <div class="mempelai-detail-box2">
           <img src="/assets/wedding_invitation/images/content/flower-name-bg.png" alt="Image 1">
           <img src="/assets/wedding_invitation/images/content/flower-name.png" alt="Image 1">
           </div>
   </div>
 </div>
+
+<!-- infographic -->
+<div class="infogr-container">
+    <div class="infogr-cer">
+      <img src="/assets/wedding_invitation/images/content/ceremony/bg.jpg">
+      <img class="cer-info2" src="/assets/wedding_invitation/images/content/ceremony/info2.png">
+      <img class="cer-info1" src="/assets/wedding_invitation/images/content/ceremony/info1.png">
+      <img class="cer-obj" src="/assets/wedding_invitation/images/content/ceremony/obj.png">
+      <img class="cer-info3" src="/assets/wedding_invitation/images/content/ceremony/info3.png">
+    </div>
+</div>
+
+ <div class="infogr-container">
+    <div class="infogr-oph">
+      <img src="/assets/wedding_invitation/images/content/openhouse/bg.jpg">
+      <img class="oph-obj" src="/assets/wedding_invitation/images/content/openhouse/obj.png">
+      <img class="oph-obj2" src="/assets/wedding_invitation/images/content/openhouse/obj2.png">
+      <img class="oph-info1" src="/assets/wedding_invitation/images/content/openhouse/info1.png">
+      <img class="oph-info2" src="/assets/wedding_invitation/images/content/openhouse/info2.png">
+      <img class="oph-info3" src="/assets/wedding_invitation/images/content/openhouse/info3.png">
+    </div>
+</div>
+
 
 waktu dan tempat
 
@@ -136,9 +155,17 @@ RSVP
 TERIMA KASIH
 ATAS KEHADIRAN DAN DOA RESTUNYA
 
+<div class="rsvp">
+      <iframe id="rsvpiframe" width="640" height="768" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+
+</div>
 
 
-<iframe src="/assets/wedding_invitation/game.html" style="width: 100%; aspect-ratio: 4 / 5; border: none;"></iframe>
+<div class="loading-screen" id="loading-screen">
+          loading game...
+          <img src="/assets/wedding_invitation/images/content/loading.gif" alt="Image 1" >
+        </div>
+<iframe id="gameIframe" src="/assets/wedding_invitation/game.html" style="width: 100%; aspect-ratio: 4 / 5; border: none; display: none;"></iframe>
 
 
 
@@ -165,16 +192,50 @@ ATAS KEHADIRAN DAN DOA RESTUNYA
         // Update the value when the hash changes
         window.addEventListener("hashchange", updateHashValue);
 
-        // Wait for the full page to load
-        window.onload = function() {
-            // Hide the loading screen
-            document.getElementById("loading-screen").style.display = "none";
-            
-            // Show the content
-            // document.getElementById("content").style.display = "block";
 
-            // Enable the button
-            document.getElementById("wed-close-btn").style.display = "inline-block";
+        document.getElementById('gameIframe').onload = function () {
+            document.getElementById('loading-screen').style.display = 'none'; // Hide loading text
+            document.getElementById('gameIframe').style.display = 'inline-block'; // Show iframe
         };
+
+        document.querySelector('.mempelai-detail-box').addEventListener('click', function() {
+            this.classList.toggle('rotated');
+        });
+
+        document.querySelector('.mempelai-detail-box2').addEventListener('click', function() {
+            this.classList.toggle('rotated');
+        });
+
+        // document.querySelector('.infogr-container').addEventListener('click', function() {
+        //     document.querySelector('.infogr-cer').classList.toggle('active');
+        // });
+
+        document.querySelector('.infogr-cer').addEventListener('click', function() {
+            this.classList.toggle('active');
+        });
+
+        document.querySelector('.infogr-oph').addEventListener('click', function() {
+            this.classList.toggle('active');
+        });
+
+        function updateIframe() {
+            // Get the hash value (without the # symbol)
+            let hashValue = window.location.hash.substring(1);
+
+            // Default name if no hash is provided
+            let name = hashValue || "-"; 
+
+            // Construct the new URL with the updated name
+            let formUrl = `https://docs.google.com/forms/d/e/1FAIpQLSed8X8v1qMGX_-O_le0-70dmOmWEFjKxcBXUjaspg4dl4Wu0Q/viewform?embedded=true&usp=pp_url&entry.895884958=${encodeURIComponent(name)}&entry.1817839479=%F0%9F%99%8C+Absolutely!&entry.2074991446=Congrats,+lovebirds!+Now+go+enjoy+your+forever!+%F0%9F%95%8A%EF%B8%8F%F0%9F%92%8D`;
+
+            // Update the iframe src
+            document.getElementById("rsvpiframe").src = formUrl;
+        }
+
+        // Run when the page loads
+        updateIframe();
+
+        // Run when the hash changes
+        window.addEventListener("hashchange", updateIframe);
 
 </script>
