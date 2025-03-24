@@ -278,7 +278,7 @@ Big thanks to Bram, Dama, Epin, Ana, Ucen, and a guy from Amed for all the beaut
             let hash = window.location.hash.substring(1);
             
             // Set the text inside the <p> tag
-            document.getElementById("receivername").textContent = hash ? `${hash}` : "-";
+            document.getElementById("receivername").textContent = hash ? `${decodeURIComponent(hash)}` : "-";
         }
 
         // Run on page load
