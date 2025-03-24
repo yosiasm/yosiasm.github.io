@@ -17,6 +17,7 @@
 
 /* Close Button */
 #wed-close-btn {
+    display: none;
     padding: 15px 30px;
     font-size: 16px;
     color: #2a3a30;
@@ -24,6 +25,25 @@
     background-color: white;
     cursor: pointer;
     border-radius: 5px;
+}
+
+/* Save the date Button */
+.sv-date-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #2a3a30;
+    border: none;
+    /* background-color: white; */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sv-dt-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* Full viewport height */
 }
 
 .wed-close-section {
@@ -84,7 +104,7 @@
     /* Two rows */
     width: 100%;
     height: 100%;
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 .wed-image-container img {
@@ -270,7 +290,7 @@
     flex-direction: row;
     justify-content: center;
     /* Centers the divs horizontally */
-    gap: 20px;
+    /* gap: 20px; */
     /* Adds space between the divs */
 }
 
@@ -478,4 +498,98 @@
 .rsvp {
     display: flex;
     justify-content: center;
+}
+
+.video3 {
+    width: 33.333vw;
+    /* Adjust width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: cover;
+    /* Crop to fit container */
+    /* margin-left: 5px; */
+    /* margin-right: 5px; */
+    /* margin-top: 10px; */
+    /* margin-bottom: 0px; */
+}
+
+.video-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    /* Enables horizontal positioning */
+    flex-direction: row;
+    justify-content: center;
+    /* Centers the divs horizontally */
+}
+
+
+/* verse-rotate1 */
+.verse-rotate1 img {
+    position: absolute;
+    transition: transform 0.4s ease-in-out;
+}
+
+.verse-rotate1 img:nth-child(2) {
+    transform: translateZ(-20px);
+}
+
+.verse-rotate1.rotated img:nth-child(2) {
+    transform: rotateY(10deg) rotateX(15deg) translateZ(3.5em);
+}
+
+/* verse-rotate2 */
+.verse-rotate2 img {
+    position: absolute;
+    transition: transform 0.4s ease-in-out;
+}
+
+.verse-rotate2 img:nth-child(2) {
+    transform: translateZ(-20px);
+}
+
+.verse-rotate2.rotated img:nth-child(2) {
+    transform: rotateY(10deg) rotateX(15deg) translateZ(3.5em);
+}
+
+/* verse-rotate1 */
+.verse-rotate3 img {
+    position: absolute;
+    transition: transform 0.4s ease-in-out;
+}
+
+.verse-rotate3 img:nth-child(2) {
+    transform: translateZ(-20px);
+}
+
+.verse-rotate3.rotated img:nth-child(2) {
+    transform: rotateY(10deg) rotateX(15deg) translateZ(3.5em);
+}
+
+/* verse-rotate1 */
+.verse-rotate4 img {
+    position: absolute;
+    transition: transform 0.4s ease-in-out;
+}
+
+.verse-rotate4 img:nth-child(2) {
+    transform: translateZ(-20px);
+}
+
+.verse-rotate4.rotated img:nth-child(2) {
+    transform: rotateY(10deg) rotateX(15deg) translateZ(3.5em);
+}
+
+/* verse-rotate1 */
+.verse-rotate5 img {
+    position: absolute;
+    transition: transform 0.4s ease-in-out;
+}
+
+.verse-rotate5 img:nth-child(2) {
+    transform: translateZ(-20px);
+}
+
+.verse-rotate5.rotated img:nth-child(2) {
+    transform: rotateY(10deg) rotateX(15deg) translateZ(3.5em);
 }

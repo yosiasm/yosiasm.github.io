@@ -93,10 +93,13 @@
     <!-- On-Screen Controls -->
     <div id="btcontrols">
       <div class="btrow">
-        <button class="control-btn" id="btnLeft"><i class="fas fa-arrow-left"></i></button>
-        <button class="control-btn" id="btnDown"><i class="fas fa-arrow-down"></i></button>
-        <button class="control-btn" id="btnUp"><i class="fas fa-arrow-up"></i></button>
-        <button class="control-btn" id="btnRight"><i class="fas fa-arrow-right"></i></button>
+        <button class="control-btn" touchaction="none" id="btnLeft" tabindex="0"><i
+            class="fas fa-arrow-left"></i></button>
+        <button class="control-btn" touchaction="none" id="btnDown" tabindex="0"><i
+            class="fas fa-arrow-down"></i></button>
+        <button class="control-btn" touchaction="none" id="btnUp" tabindex="0"><i class="fas fa-arrow-up"></i></button>
+        <button class="control-btn" touchaction="none" id="btnRight" tabindex="0"><i
+            class="fas fa-arrow-right"></i></button>
       </div>
     </div>
   </div>
@@ -182,6 +185,7 @@
       var speedPercent = speed / maxSpeed;
       var dx = dt * 2 * speedPercent; // at top speed, should be able to cross from left to right (-1 to 1) in 1 second
       var startPosition = position;
+      var check = 0;
 
       updateCars(dt, playerSegment, playerW);
 
@@ -213,6 +217,7 @@
           if (Util.overlap(playerX, playerW, sprite.offset + spriteW / 2 * (sprite.offset > 0 ? 1 : -1), spriteW)) {
             speed = maxSpeed / 5;
             position = Util.increase(playerSegment.p1.world.z, -playerZ, trackLength); // stop in front of sprite (at front of segment)
+            check = position;
             break;
           }
         }
@@ -654,20 +659,26 @@
           const button = document.getElementById(buttonId);
 
           function activateKey(event) {
-            // event.preventDefault();
+            event.preventDefault();
             window[keyVar] = true;
           }
 
           function deactivateKey(event) {
-            // event.preventDefault();
+            event.preventDefault();
             window[keyVar] = false;
           }
 
           button.addEventListener("mousedown", activateKey);
           button.addEventListener("touchstart", activateKey, { passive: false });
+          button.addEventListener("pointerdown", activateKey);
 
           button.addEventListener("mouseup", deactivateKey);
           button.addEventListener("touchend", deactivateKey, { passive: false });
+          button.addEventListener("pointerup", deactivateKey);
+          button.addEventListener("touchcancel", deactivateKey, { passive: false });
+          button.addEventListener("pointercancel", deactivateKey);
+          button.addEventListener("touchmove", (event) => event.preventDefault(), { passive: false });
+
         }
 
         bindButton("btnLeft", "keyLeft");

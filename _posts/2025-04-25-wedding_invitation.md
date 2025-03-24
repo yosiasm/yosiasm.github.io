@@ -4,7 +4,7 @@ author: Yosias Suparno
 date: 2025-03-06
 category: invitation
 layout: post
-cover: /assets/uhuy/banner.jpg
+cover: /assets/wedding_invitation/banner.jpg
 ---
 
 <link rel="stylesheet" href="/assets/wedding_invitation/wedding.css">
@@ -17,14 +17,17 @@ cover: /assets/uhuy/banner.jpg
       <img src="/assets/wedding_invitation/images/content/opening-small-name2.png" alt="Image 1" class="cover-overlay">
       <img src="/assets/wedding_invitation/images/content/opening-small-title.png" alt="Image 2" class="cover-overlay">
     <div class="cover-overlay wed-close-section">
-        <span>Yth. Bapak/Ibu/Saudara/i</span>
+        <span>Dear</span>
         <h3 id="receivername">Joko</h3> 
         <span>
-Tanpa mengurangi rasa hormat,
-kami mengundang anda untuk menghadiri
-acara pernikahan kami.
+By the grace and blessings of God, <br/>
+we joyfully invite you to celebrate our wedding.
         </span>
-        <button id="wed-close-btn">✉️ BUKA UNDANGAN</button>
+        <button id="wed-close-btn">✉️ OPEN INVITATION</button>
+        <div class="loading-screen" id="loading-homescreen">
+    Please wait...
+    <img src="/assets/wedding_invitation/images/content/loading.gif" alt="Loading">
+</div>
     </div>
 </div>
 </div>
@@ -68,22 +71,21 @@ acara pernikahan kami.
 </div>
 <script src="/assets/wedding_invitation/countdown.js"></script>
 
+Want to set the mood first? 🎶 <br/>
+<i>Just like me, they long to be close to you..."</i> 💕 (Mey picked this one!)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0pJfOGfXolKFrlMUJIAiib?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+Something smooth, chill and groovy for you ✨
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3jyGsM8Jfk6163HADlNAIg?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-<!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0pJfOGfXolKFrlMUJIAiib?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3jyGsM8Jfk6163HADlNAIg?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
-
-
+<br/>
  <div class="verse-container">
-          <div class="verse">
+          <div class="verse verse-rotate1">
             <img src="/assets/wedding_invitation/images/content/verse1-bg.jpg" alt="Image 1">
             <img src="/assets/wedding_invitation/images/content/verse1.png" alt="Image 1">
           </div>
   </div>
 
-## Pasangan Mempelai
-dengan segala ...
-
-
+### We humbly request your presence at the wedding of:
 <div class="mempelai-container">
   <div class="mempelai">
           <div class="mempelai-detail-box">
@@ -94,7 +96,12 @@ dengan segala ...
             <img src="/assets/wedding_invitation/images/content/garden.jpg" alt="Image 1">
           </div>
   </div>
-  dengan
+<!-- <h3 style="text-align: center; margin: 0px">&</h3> -->
+<div class="mempelai">
+<div class="mempelai-box" style="margin: -50px; z-index: 1000;">
+            <img src="/assets/wedding_invitation/images/content/ampersand.png" alt="Image 1">
+          </div>
+          </div>
   <div class="mempelai">
           <div class="mempelai-box">
             <img src="/assets/wedding_invitation/images/content/flower.jpg" alt="Image 1">
@@ -104,6 +111,12 @@ dengan segala ...
           <img src="/assets/wedding_invitation/images/content/flower-name.png" alt="Image 1">
           </div>
   </div>
+</div>
+
+<div class="sv-dt-container">
+  <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Yosias+%26+Mey's+Wedding&dates=20250525T020000Z/20250525T080000Z&details=Join+us+to+celebrate+the+wedding+of+Yosias+%26+Mey!&location=Malang" target="_blank" rel="noopener noreferrer">
+      <button class="sv-date-btn">📅 Save the Date (Google Calendar)</button>
+  </a>
 </div>
 
 <!-- infographic -->
@@ -128,37 +141,105 @@ dengan segala ...
     </div>
 </div>
 
+### Your presence and prayers are a precious gift to us.
 
-waktu dan tempat
+ <div class="verse-container">
+          <div class="verse verse-rotate2">
+            <img src="/assets/wedding_invitation/images/content/verse2-bg.jpg" alt="Image 1" style="aspect-ratio: 16:9;">
+            <img src="/assets/wedding_invitation/images/content/verse2.png" alt="Image 1" style="aspect-ratio: 16:9;">
+          </div>
+  </div>
 
-Jumat, 25 April 2025
+<div class="video-container">
+  <video class="video3"  id="myVideo" autoplay loop muted playsinline>
+          <source src="/assets/wedding_invitation/images/content/moment/video2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+  </video>
+  <video class="video3"  id="myVideo" autoplay loop muted playsinline>
+          <source src="/assets/wedding_invitation/images/content/moment/video1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+  </video>
 
-Simpan Tanggalnya
-
-
-Pemberkatan
-Jumat, 25 April 2025 09:00 - 11:00 WIB
-
-Lokasi
-
-
-Ramah Tamah
-Jumat, 25 April 2025 13:00 - 18:00 WIB
-
-Lokasi
-
-
-Our Moment
-
-RSVP
-
-TERIMA KASIH
-ATAS KEHADIRAN DAN DOA RESTUNYA
-
-<div class="rsvp">
-      <iframe id="rsvpiframe" width="640" height="768" frameborder="0" marginheight="0" marginwidth="0"></iframe>
-
+  <video class="video3"  id="myVideo" autoplay loop muted playsinline>
+          <source src="/assets/wedding_invitation/images/content/moment/video3.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+  </video>
 </div>
+
+
+
+<div class="video-container">
+  <video class="video3" id="myVideo" autoplay loop muted playsinline>
+          <source src="/assets/wedding_invitation/images/content/moment/video4.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+  </video>
+  <video class="video3" id="myVideo" autoplay loop muted playsinline>
+          <source src="/assets/wedding_invitation/images/content/moment/video5.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+  </video>
+  <video class="video3" id="myVideo" autoplay loop muted playsinline>
+          <source src="/assets/wedding_invitation/images/content/moment/video6.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+  </video>
+</div>
+
+<div class="verse-container">
+          <div class="verse verse-rotate3">
+            <img src="/assets/wedding_invitation/images/content/verse3-bg.jpg" alt="Image 1" style="aspect-ratio: 16:9;">
+            <img src="/assets/wedding_invitation/images/content/verse3.png" alt="Image 1" style="aspect-ratio: 16:9;">
+          </div>
+  </div>
+
+<!-- second gallery -->
+<div class="wed-image-wrapper">
+  <div class="wed-image-container">
+      <img src="/assets/wedding_invitation/images/content/moment/moment1.jpg" alt="Image 1">
+      <img src="/assets/wedding_invitation/images/content/moment/moment2.jpg" alt="Image 1">
+      <img src="/assets/wedding_invitation/images/content/moment/moment3.jpg" alt="Image 1">
+      <img src="/assets/wedding_invitation/images/content/moment/moment4.jpg" alt="Image 1">
+      <img src="/assets/wedding_invitation/images/content/moment/moment5.jpg" alt="Image 1">
+      <img src="/assets/wedding_invitation/images/content/moment/moment6.jpg" alt="Image 1">
+  </div>
+</div>
+
+<div class="verse-container">
+          <div class="verse verse-rotate4">
+            <img src="/assets/wedding_invitation/images/content/verse4-bg.jpg" alt="Image 1" style="aspect-ratio: 16:9;">
+            <img src="/assets/wedding_invitation/images/content/verse4.png" alt="Image 1" style="aspect-ratio: 16:9;">
+          </div>
+  </div>
+
+<!-- second gallery -->
+<div class="wed-image-wrapper">
+  <div class="wed-image-container">
+      <img src="/assets/wedding_invitation/images/content/moment/moment7.jpg" alt="Image 1">
+      <img src="/assets/wedding_invitation/images/content/moment/moment8.jpg" alt="Image 1">
+      <img src="/assets/wedding_invitation/images/content/moment/moment9.jpg" alt="Image 1">
+      <img src="/assets/wedding_invitation/images/content/moment/moment10.jpg" alt="Image 1">
+  </div>
+</div>
+
+
+<div class="verse-container">
+          <div class="verse verse-rotate5">
+            <img src="/assets/wedding_invitation/images/content/verse5-bg.jpg" alt="Image 1" style="aspect-ratio: 16:9;">
+            <img src="/assets/wedding_invitation/images/content/verse5.png" alt="Image 1" style="aspect-ratio: 16:9;">
+          </div>
+  </div>
+
+<!-- third gallery -->
+<div class="wed-image-wrapper">
+<div style="display: flex">
+  <img src="/assets/wedding_invitation/images/content/moment/moment11.jpg" alt="Image 1" style="margin: 0px">
+  </div>
+  <div class="wed-image-container">
+      <img src="/assets/wedding_invitation/images/content/moment/moment12.jpg" alt="Image 1">
+      <img src="/assets/wedding_invitation/images/content/moment/moment13.jpg" alt="Image 1">
+      <img src="/assets/wedding_invitation/images/content/moment/moment14.jpg" alt="Image 1">
+      <img src="/assets/wedding_invitation/images/content/moment/moment15.jpg" alt="Image 1">
+  </div>
+</div>
+
 
 
 <div class="loading-screen" id="loading-screen">
@@ -168,8 +249,21 @@ ATAS KEHADIRAN DAN DOA RESTUNYA
 <iframe id="gameIframe" src="/assets/wedding_invitation/game.html" style="width: 100%; aspect-ratio: 4 / 5; border: none; display: none;"></iframe>
 
 
+<div class="rsvp">
+      <iframe id="rsvpiframe" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0"></iframe>
 
+</div>
 
+### With joy and blessings✨
+Yosias & Mey <br>
+And our families
+
+<!-- third gallery -->
+<div class="wed-image-wrapper">
+  <img src="/assets/wedding_invitation/images/content/moment/moment16.jpg" alt="Image 1">
+</div>
+
+Big thanks to Bram, Dama, Epin, Ana, Ucen, and a guy from Amed for all the beautiful pictures! 🙌
 
 <script>
         document.getElementById("wed-close-btn").addEventListener("click", function() {
@@ -223,7 +317,7 @@ ATAS KEHADIRAN DAN DOA RESTUNYA
             let hashValue = window.location.hash.substring(1);
 
             // Default name if no hash is provided
-            let name = hashValue || "-"; 
+            let name = decodeURIComponent(hashValue) || "-"; 
 
             // Construct the new URL with the updated name
             let formUrl = `https://docs.google.com/forms/d/e/1FAIpQLSed8X8v1qMGX_-O_le0-70dmOmWEFjKxcBXUjaspg4dl4Wu0Q/viewform?embedded=true&usp=pp_url&entry.895884958=${encodeURIComponent(name)}&entry.1817839479=%F0%9F%99%8C+Absolutely!&entry.2074991446=Congrats,+lovebirds!+Now+go+enjoy+your+forever!+%F0%9F%95%8A%EF%B8%8F%F0%9F%92%8D`;
@@ -237,5 +331,36 @@ ATAS KEHADIRAN DAN DOA RESTUNYA
 
         // Run when the hash changes
         window.addEventListener("hashchange", updateIframe);
+
+        document.addEventListener("click", () => {
+          document.getElementById("myVideo").play();
+        });
+
+        document.querySelector('.verse-rotate1').addEventListener('click', function() {
+            this.classList.toggle('rotated');
+        });
+
+        document.querySelector('.verse-rotate2').addEventListener('click', function() {
+            this.classList.toggle('rotated');
+        });
+
+        document.querySelector('.verse-rotate3').addEventListener('click', function() {
+            this.classList.toggle('rotated');
+        });
+
+        document.querySelector('.verse-rotate4').addEventListener('click', function() {
+            this.classList.toggle('rotated');
+        });
+
+        document.querySelector('.verse-rotate5').addEventListener('click', function() {
+            this.classList.toggle('rotated');
+        });
+
+        setTimeout(() => {
+        // Hide loading screen
+        document.getElementById("loading-homescreen").style.display = "none";
+        // Show the button
+        document.getElementById("wed-close-btn").style.display = "inline-block";
+    }, 4000); // 5 seconds delay
 
 </script>
