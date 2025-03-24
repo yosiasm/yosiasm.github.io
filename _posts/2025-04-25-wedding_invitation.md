@@ -74,7 +74,7 @@ we joyfully invite you to celebrate our wedding.
 Want to set the mood first? 🎶 <br/>
 <i>Just like me, they long to be close to you..."</i> 💕 (Mey picked this one!)
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0pJfOGfXolKFrlMUJIAiib?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-Something smooth, chill and groovy for you ✨
+or something smooth, chill and groovy for you ✨
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3jyGsM8Jfk6163HADlNAIg?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <br/>
