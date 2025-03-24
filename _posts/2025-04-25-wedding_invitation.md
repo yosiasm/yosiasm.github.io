@@ -247,6 +247,7 @@ or something smooth, chill and groovy for you ✨
           <img src="/assets/wedding_invitation/images/content/loading.gif" alt="Image 1" >
         </div>
 <iframe id="gameIframe" src="/assets/wedding_invitation/game.html" style="width: 100%; aspect-ratio: 4 / 5; border: none; display: none;"></iframe>
+*For iPhone users, switch to another app and then come back here if the game isn't working. I did my best, but I can’t fix it 😭
 
 
 <div class="rsvp">
