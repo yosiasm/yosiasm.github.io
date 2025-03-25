@@ -18,7 +18,7 @@ cover: /assets/wedding_invitation/banner.jpg
       <img src="/assets/wedding_invitation/images/content/opening-small-title.png" alt="Image 2" class="cover-overlay">
     <div class="cover-overlay wed-close-section">
         <span>Dear</span>
-        <h3 id="receivername">Joko</h3> 
+        <h3 id="receivername">-</h3> 
         <span>
 By the grace and blessings of God, <br/>
 we joyfully invite you to celebrate our wedding.
@@ -143,6 +143,12 @@ or something smooth, chill and groovy for you ✨
 
 ### Your presence and prayers are a precious gift to us.
 
+<div class="rsvp">
+      <iframe id="rsvpiframe" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+</div>
+
+### A glimpse of our moment
+
  <div class="verse-container">
           <div class="verse verse-rotate2">
             <img src="/assets/wedding_invitation/images/content/verse2-bg.jpg" alt="Image 1" style="aspect-ratio: 16:9;">
@@ -248,12 +254,6 @@ or something smooth, chill and groovy for you ✨
         </div>
 <iframe id="gameIframe" src="/assets/wedding_invitation/game.html" style="width: 100%; aspect-ratio: 4 / 5; border: none; display: none;"></iframe>
 *For iPhone users, switch to another app and then come back here if the game isn't working. I did my best, but I can’t fix it 😭
-
-
-<div class="rsvp">
-      <iframe id="rsvpiframe" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0"></iframe>
-
-</div>
 
 ### With joy and blessings✨
 Yosias & Mey <br>
