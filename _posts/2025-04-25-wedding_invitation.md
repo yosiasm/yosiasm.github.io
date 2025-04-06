@@ -35,10 +35,10 @@ we joyfully invite you to celebrate our wedding.
 <!-- first gallery -->
 <div class="wed-image-wrapper">
   <div class="wed-image-container">
-      <img src="/assets/wedding_invitation/images/content/earth-small2.jpg" alt="Image 1" class="left-fade-slide-in" loading="eager">
-      <img src="/assets/wedding_invitation/images/content/water-small2.gif" alt="Image 2" class="right-fade-slide-in" loading="eager">
-      <img src="/assets/wedding_invitation/images/content/fire-small2.jpg" alt="Image 3" class="left-fade-slide-in" loading="eager">
-      <img src="/assets/wedding_invitation/images/content/wind-small2.jpg" alt="Image 4" class="right-fade-slide-in" loading="eager">
+      <img src="/assets/wedding_invitation/images/content/earth-small2.jpg" alt="Image 1" loading="eager">
+      <img src="/assets/wedding_invitation/images/content/water-small2.gif" alt="Image 2" loading="eager">
+      <img src="/assets/wedding_invitation/images/content/fire-small2.jpg" alt="Image 3" loading="eager">
+      <img src="/assets/wedding_invitation/images/content/wind-small2.jpg" alt="Image 4" loading="eager">
       <!-- Center Image Positioned Correctly -->
       <div class="wed-center-bottom-image-container">
           <img src="/assets/wedding_invitation/images/content/opening-small-name-short.png" alt="Image 1" class="wed-center-image up-fade-slide-in" loading="eager">
@@ -375,7 +375,7 @@ Big thanks to Bram, Dama, Epin, Ana, Ucen, and a guy from Amed for all the beaut
                 entry.target.classList.add('in-view');
               }
             });
-          }, { threshold: 0.1 });
+          }, { threshold: 0 });
 
           document.querySelectorAll('.left-fade-slide-in').forEach(el => {
             observer.observe(el);
