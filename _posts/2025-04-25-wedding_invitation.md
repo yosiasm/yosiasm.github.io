@@ -88,9 +88,9 @@ or something smooth, chill and groovy for you ✨
 ### We humbly request your presence at the wedding of:
 <div class="mempelai-container">
   <div class="mempelai">
-          <div class="mempelai-detail-box">
-          <img src="/assets/wedding_invitation/images/content/garden-name-bg.png" alt="Image 1" class="left-fade-slide-in" loading="eager">
-          <img src="/assets/wedding_invitation/images/content/garden-name.png" alt="Image 1" class="up-fade-slide-in" loading="eager">
+          <div class="mempelai-detail-box up-fade-slide-in">
+          <img src="/assets/wedding_invitation/images/content/garden-name-bg.png" alt="Image 1" loading="eager">
+          <img src="/assets/wedding_invitation/images/content/garden-name.png" alt="Image 1"  loading="eager">
           </div>
           <div class="mempelai-box">
             <img src="/assets/wedding_invitation/images/content/garden.jpg" alt="Image 1" class="right-fade-slide-in" loading="eager">
@@ -106,9 +106,9 @@ or something smooth, chill and groovy for you ✨
           <div class="mempelai-box">
             <img src="/assets/wedding_invitation/images/content/flower.jpg" alt="Image 1" class="left-fade-slide-in" loading="eager">
           </div>
-          <div class="mempelai-detail-box2">
-          <img src="/assets/wedding_invitation/images/content/flower-name-bg.png" alt="Image 1" class="right-fade-slide-in" loading="eager">
-          <img src="/assets/wedding_invitation/images/content/flower-name.png" alt="Image 1" class="up-fade-slide-in" loading="eager">
+          <div class="mempelai-detail-box2 up-fade-slide-in">
+          <img src="/assets/wedding_invitation/images/content/flower-name-bg.png" alt="Image 1" loading="eager">
+          <img src="/assets/wedding_invitation/images/content/flower-name.png" alt="Image 1" loading="eager">
           </div>
   </div>
 </div>
@@ -368,31 +368,47 @@ Big thanks to Bram, Dama, Epin, Ana, Ucen, and a guy from Amed for all the beaut
             document.getElementById("wed-close-btn").style.display = "inline-block";
         }, 4000); // 5 seconds delay
 
-        document.addEventListener("DOMContentLoaded", () => {
-          const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                entry.target.classList.add('in-view');
-              }
-            });
-          }, { threshold: 0 });
+        (function() {
+  const classesToWatch = ['left-fade-slide-in', 'right-fade-slide-in', 'up-fade-slide-in'];
+  const classToAdd = 'in-view';
 
-          document.querySelectorAll('.left-fade-slide-in').forEach(el => {
-            observer.observe(el);
-          });
+  function observeVisibility(element) {
+    const io = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.intersectionRatio >= 0.6) {
+          entry.target.classList.add(classToAdd);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.6 // Only trigger when 30% or more is visible
+    });
 
-          document.querySelectorAll('.right-fade-slide-in').forEach(el => {
-            observer.observe(el);
-          });
+    io.observe(element);
+  }
 
-          document.querySelectorAll('.up-fade-slide-in').forEach(el => {
-            observer.observe(el);
-          });
+  // Check for existing elements on page load
+  classesToWatch.forEach(cls => {
+    document.querySelectorAll(`.${cls}`).forEach(el => observeVisibility(el));
+  });
 
-          document.querySelectorAll('.upslow-fade-slide-in').forEach(el => {
-            observer.observe(el);
+  // Watch for new elements added later
+  const mo = new MutationObserver(mutations => {
+    mutations.forEach(m => {
+      m.addedNodes.forEach(node => {
+        if (node.nodeType === 1) {
+          classesToWatch.forEach(cls => {
+            const isMatch = node.classList?.contains(cls);
+            const found = isMatch ? [node] : node.querySelectorAll?.(`.${cls}`);
+            found && found.forEach(el => observeVisibility(el));
           });
-        });
+        }
+      });
+    });
+  });
+
+  mo.observe(document.body, { childList: true, subtree: true });
+})();
 
 </script>
 
