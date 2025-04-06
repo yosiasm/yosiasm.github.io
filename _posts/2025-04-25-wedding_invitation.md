@@ -35,13 +35,13 @@ we joyfully invite you to celebrate our wedding.
 <!-- first gallery -->
 <div class="wed-image-wrapper">
   <div class="wed-image-container">
-      <img src="/assets/wedding_invitation/images/content/earth-small2.jpg" alt="Image 1">
-      <img src="/assets/wedding_invitation/images/content/water-small2.gif" alt="Image 2">
-      <img src="/assets/wedding_invitation/images/content/fire-small2.jpg" alt="Image 3">
-      <img src="/assets/wedding_invitation/images/content/wind-small2.jpg" alt="Image 4">
+      <img src="/assets/wedding_invitation/images/content/earth-small2.jpg" alt="Image 1" class="left-fade-slide-in">
+      <img src="/assets/wedding_invitation/images/content/water-small2.gif" alt="Image 2" class="right-fade-slide-in">
+      <img src="/assets/wedding_invitation/images/content/fire-small2.jpg" alt="Image 3" class="left-fade-slide-in">
+      <img src="/assets/wedding_invitation/images/content/wind-small2.jpg" alt="Image 4" class="right-fade-slide-in">
       <!-- Center Image Positioned Correctly -->
       <div class="wed-center-bottom-image-container">
-          <img src="/assets/wedding_invitation/images/content/opening-small-name-short.png" alt="Image 1" class="wed-center-image">
+          <img src="/assets/wedding_invitation/images/content/opening-small-name-short.png" alt="Image 1" class="wed-center-image up-fade-slide-in">
           <span class="wed-center-span">25 - 04 - 2025</span>
       </div>
       
@@ -49,7 +49,7 @@ we joyfully invite you to celebrate our wedding.
 </div>
 
 
-<div class="cd-countdown-wrapper">
+<div class="cd-countdown-wrapper up-fade-slide-in">
   <div class="cd-countdown">
     <div class="cd-time-box">
       <span id="days">00</span>
@@ -73,12 +73,12 @@ we joyfully invite you to celebrate our wedding.
 
 Want to set the mood first? 🎶 <br/>
 <i>Just like me, they long to be close to you..."</i> 💕 (Mey picked this one!)
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0pJfOGfXolKFrlMUJIAiib?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe class="up-fade-slide-in" style="border-radius:12px" src="https://open.spotify.com/embed/track/0pJfOGfXolKFrlMUJIAiib?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 or something smooth, chill and groovy for you ✨
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3jyGsM8Jfk6163HADlNAIg?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe class="up-fade-slide-in" style="border-radius:12px" src="https://open.spotify.com/embed/track/3jyGsM8Jfk6163HADlNAIg?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <br/>
- <div class="verse-container">
+ <div class="verse-container up-fade-slide-in">
           <div class="verse verse-rotate1">
             <img src="/assets/wedding_invitation/images/content/verse1-bg.jpg" alt="Image 1">
             <img src="/assets/wedding_invitation/images/content/verse1.png" alt="Image 1">
@@ -89,38 +89,38 @@ or something smooth, chill and groovy for you ✨
 <div class="mempelai-container">
   <div class="mempelai">
           <div class="mempelai-detail-box">
-          <img src="/assets/wedding_invitation/images/content/garden-name-bg.png" alt="Image 1">
-          <img src="/assets/wedding_invitation/images/content/garden-name.png" alt="Image 1">
+          <img src="/assets/wedding_invitation/images/content/garden-name-bg.png" alt="Image 1" class="left-fade-slide-in">
+          <img src="/assets/wedding_invitation/images/content/garden-name.png" alt="Image 1" class="up-fade-slide-in">
           </div>
           <div class="mempelai-box">
-            <img src="/assets/wedding_invitation/images/content/garden.jpg" alt="Image 1">
+            <img src="/assets/wedding_invitation/images/content/garden.jpg" alt="Image 1" class="right-fade-slide-in">
           </div>
   </div>
 <!-- <h3 style="text-align: center; margin: 0px">&</h3> -->
 <div class="mempelai">
 <div class="mempelai-box" style="margin: -50px; z-index: 1000;">
-            <img src="/assets/wedding_invitation/images/content/ampersand.png" alt="Image 1">
+            <img src="/assets/wedding_invitation/images/content/ampersand.png" alt="Image 1" class="up-fade-slide-in">
           </div>
           </div>
   <div class="mempelai">
           <div class="mempelai-box">
-            <img src="/assets/wedding_invitation/images/content/flower.jpg" alt="Image 1">
+            <img src="/assets/wedding_invitation/images/content/flower.jpg" alt="Image 1" class="left-fade-slide-in">
           </div>
           <div class="mempelai-detail-box2">
-          <img src="/assets/wedding_invitation/images/content/flower-name-bg.png" alt="Image 1">
-          <img src="/assets/wedding_invitation/images/content/flower-name.png" alt="Image 1">
+          <img src="/assets/wedding_invitation/images/content/flower-name-bg.png" alt="Image 1" class="right-fade-slide-in">
+          <img src="/assets/wedding_invitation/images/content/flower-name.png" alt="Image 1" class="up-fade-slide-in">
           </div>
   </div>
 </div>
 
-<div class="sv-dt-container">
+<div class="sv-dt-container up-fade-slide-in">
   <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Yosias+%26+Mey's+Wedding&dates=20250525T020000Z/20250525T080000Z&details=Join+us+to+celebrate+the+wedding+of+Yosias+%26+Mey!&location=Malang" target="_blank" rel="noopener noreferrer">
       <button class="sv-date-btn">📅 Save the Date (Google Calendar)</button>
   </a>
 </div>
 
 <!-- infographic -->
-<div class="infogr-container">
+<div class="infogr-container up-fade-slide-in">
     <div class="infogr-cer">
       <img src="/assets/wedding_invitation/images/content/ceremony/bg.jpg">
       <img class="cer-info2" src="/assets/wedding_invitation/images/content/ceremony/info2.png">
@@ -130,12 +130,12 @@ or something smooth, chill and groovy for you ✨
     </div>
 </div>
 
- <div class="infogr-container">
+ <div class="infogr-container up-fade-slide-in">
     <div class="infogr-oph">
       <img src="/assets/wedding_invitation/images/content/openhouse/bg.jpg">
       <img class="oph-obj" src="/assets/wedding_invitation/images/content/openhouse/obj.png">
-      <img class="oph-obj2" src="/assets/wedding_invitation/images/content/openhouse/obj2.png">
       <img class="oph-info1" src="/assets/wedding_invitation/images/content/openhouse/info1.png">
+      <img class="oph-obj2" src="/assets/wedding_invitation/images/content/openhouse/obj2.png">
       <img class="oph-info2" src="/assets/wedding_invitation/images/content/openhouse/info2.png">
       <img class="oph-info3" src="/assets/wedding_invitation/images/content/openhouse/info3.png">
     </div>
@@ -143,13 +143,13 @@ or something smooth, chill and groovy for you ✨
 
 ### Your presence and prayers are a precious gift to us.
 
-<div class="rsvp">
+<div class="rsvp up-fade-slide-in">
       <iframe id="rsvpiframe" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0"></iframe>
 </div>
 
 ### A glimpse of our moment
 
- <div class="verse-container">
+ <div class="verse-container up-fade-slide-in">
           <div class="verse verse-rotate2">
             <img src="/assets/wedding_invitation/images/content/verse2-bg.jpg" alt="Image 1" style="aspect-ratio: 16:9;">
             <img src="/assets/wedding_invitation/images/content/verse2.png" alt="Image 1" style="aspect-ratio: 16:9;">
@@ -157,16 +157,16 @@ or something smooth, chill and groovy for you ✨
   </div>
 
 <div class="video-container">
-  <video class="video3"  id="myVideo" autoplay loop muted playsinline>
+  <video class="video3 left-fade-slide-in"  id="myVideo" autoplay loop muted playsinline>
           <source src="/assets/wedding_invitation/images/content/moment/video2.mp4" type="video/mp4">
           Your browser does not support the video tag.
   </video>
-  <video class="video3"  id="myVideo" autoplay loop muted playsinline>
+  <video class="video3 up-fade-slide-in"  id="myVideo" autoplay loop muted playsinline>
           <source src="/assets/wedding_invitation/images/content/moment/video1.mp4" type="video/mp4">
           Your browser does not support the video tag.
   </video>
 
-  <video class="video3"  id="myVideo" autoplay loop muted playsinline>
+  <video class="video3 right-fade-slide-in"  id="myVideo" autoplay loop muted playsinline>
           <source src="/assets/wedding_invitation/images/content/moment/video3.mp4" type="video/mp4">
           Your browser does not support the video tag.
   </video>
@@ -175,21 +175,21 @@ or something smooth, chill and groovy for you ✨
 
 
 <div class="video-container">
-  <video class="video3" id="myVideo" autoplay loop muted playsinline>
+  <video class="video3 left-fade-slide-in" id="myVideo" autoplay loop muted playsinline>
           <source src="/assets/wedding_invitation/images/content/moment/video4.mp4" type="video/mp4">
           Your browser does not support the video tag.
   </video>
-  <video class="video3" id="myVideo" autoplay loop muted playsinline>
+  <video class="video3 up-fade-slide-in" id="myVideo" autoplay loop muted playsinline>
           <source src="/assets/wedding_invitation/images/content/moment/video5.mp4" type="video/mp4">
           Your browser does not support the video tag.
   </video>
-  <video class="video3" id="myVideo" autoplay loop muted playsinline>
+  <video class="video3 right-fade-slide-in" id="myVideo" autoplay loop muted playsinline>
           <source src="/assets/wedding_invitation/images/content/moment/video6.mp4" type="video/mp4">
           Your browser does not support the video tag.
   </video>
 </div>
 
-<div class="verse-container">
+<div class="verse-container up-fade-slide-in">
           <div class="verse verse-rotate3">
             <img src="/assets/wedding_invitation/images/content/verse3-bg.jpg" alt="Image 1" style="aspect-ratio: 16:9;">
             <img src="/assets/wedding_invitation/images/content/verse3.png" alt="Image 1" style="aspect-ratio: 16:9;">
@@ -199,16 +199,16 @@ or something smooth, chill and groovy for you ✨
 <!-- second gallery -->
 <div class="wed-image-wrapper">
   <div class="wed-image-container">
-      <img src="/assets/wedding_invitation/images/content/moment/moment1.jpg" alt="Image 1">
-      <img src="/assets/wedding_invitation/images/content/moment/moment2.jpg" alt="Image 1">
-      <img src="/assets/wedding_invitation/images/content/moment/moment3.jpg" alt="Image 1">
-      <img src="/assets/wedding_invitation/images/content/moment/moment4.jpg" alt="Image 1">
-      <img src="/assets/wedding_invitation/images/content/moment/moment5.jpg" alt="Image 1">
-      <img src="/assets/wedding_invitation/images/content/moment/moment6.jpg" alt="Image 1">
+      <img src="/assets/wedding_invitation/images/content/moment/moment1.jpg" alt="Image 1" class="left-fade-slide-in">
+      <img src="/assets/wedding_invitation/images/content/moment/moment2.jpg" alt="Image 1" class="right-fade-slide-in">
+      <img src="/assets/wedding_invitation/images/content/moment/moment3.jpg" alt="Image 1" class="left-fade-slide-in">
+      <img src="/assets/wedding_invitation/images/content/moment/moment4.jpg" alt="Image 1" class="right-fade-slide-in">
+      <img src="/assets/wedding_invitation/images/content/moment/moment5.jpg" alt="Image 1" class="left-fade-slide-in">
+      <img src="/assets/wedding_invitation/images/content/moment/moment6.jpg" alt="Image 1" class="right-fade-slide-in">
   </div>
 </div>
 
-<div class="verse-container">
+<div class="verse-container up-fade-slide-in">
           <div class="verse verse-rotate4">
             <img src="/assets/wedding_invitation/images/content/verse4-bg.jpg" alt="Image 1" style="aspect-ratio: 16:9;">
             <img src="/assets/wedding_invitation/images/content/verse4.png" alt="Image 1" style="aspect-ratio: 16:9;">
@@ -218,15 +218,15 @@ or something smooth, chill and groovy for you ✨
 <!-- second gallery -->
 <div class="wed-image-wrapper">
   <div class="wed-image-container">
-      <img src="/assets/wedding_invitation/images/content/moment/moment7.jpg" alt="Image 1">
-      <img src="/assets/wedding_invitation/images/content/moment/moment8.jpg" alt="Image 1">
-      <img src="/assets/wedding_invitation/images/content/moment/moment9.jpg" alt="Image 1">
-      <img src="/assets/wedding_invitation/images/content/moment/moment10.jpg" alt="Image 1">
+      <img src="/assets/wedding_invitation/images/content/moment/moment7.jpg" alt="Image 1" class="left-fade-slide-in">
+      <img src="/assets/wedding_invitation/images/content/moment/moment8.jpg" alt="Image 1" class="right-fade-slide-in">
+      <img src="/assets/wedding_invitation/images/content/moment/moment9.jpg" alt="Image 1" class="left-fade-slide-in">
+      <img src="/assets/wedding_invitation/images/content/moment/moment10.jpg" alt="Image 1" class="right-fade-slide-in">
   </div>
 </div>
 
 
-<div class="verse-container">
+<div class="verse-container up-fade-slide-in">
           <div class="verse verse-rotate5">
             <img src="/assets/wedding_invitation/images/content/verse5-bg.jpg" alt="Image 1" style="aspect-ratio: 16:9;">
             <img src="/assets/wedding_invitation/images/content/verse5.png" alt="Image 1" style="aspect-ratio: 16:9;">
@@ -236,32 +236,36 @@ or something smooth, chill and groovy for you ✨
 <!-- third gallery -->
 <div class="wed-image-wrapper">
 <div style="display: flex">
-  <img src="/assets/wedding_invitation/images/content/moment/moment11.jpg" alt="Image 1" style="margin: 0px">
+  <img src="/assets/wedding_invitation/images/content/moment/moment11.jpg" alt="Image 1" style="margin: 0px"  class="up-fade-slide-in">
   </div>
   <div class="wed-image-container">
-      <img src="/assets/wedding_invitation/images/content/moment/moment12.jpg" alt="Image 1">
-      <img src="/assets/wedding_invitation/images/content/moment/moment13.jpg" alt="Image 1">
-      <img src="/assets/wedding_invitation/images/content/moment/moment14.jpg" alt="Image 1">
-      <img src="/assets/wedding_invitation/images/content/moment/moment15.jpg" alt="Image 1">
+      <img src="/assets/wedding_invitation/images/content/moment/moment12.jpg" alt="Image 1" class="left-fade-slide-in">
+      <img src="/assets/wedding_invitation/images/content/moment/moment13.jpg" alt="Image 1" class="right-fade-slide-in">
+      <img src="/assets/wedding_invitation/images/content/moment/moment14.jpg" alt="Image 1" class="left-fade-slide-in">
+      <img src="/assets/wedding_invitation/images/content/moment/moment15.jpg" alt="Image 1" class="right-fade-slide-in">
   </div>
 </div>
 
+<script src="/assets/wedding_invitation/stats.js"></script>
+  <script src="/assets/wedding_invitation/common.js"></script>
+  <script src="/assets/wedding_invitation/game.js"></script>
 
-
-<div class="loading-screen" id="loading-screen">
+<div class="loading-screen up-fade-slide-in" id="loading-screen">
           loading game...
           <img src="/assets/wedding_invitation/images/content/loading.gif" alt="Image 1" >
         </div>
-<iframe id="gameIframe" src="/assets/wedding_invitation/game.html" style="width: 100%; aspect-ratio: 4 / 5; border: none; display: none;"></iframe>
-*For iPhone users, switch to another app and then come back here if the game isn't working. I did my best, but I can’t fix it 😭
+<iframe  class="up-fade-slide-in" id="gameIframe" src="/assets/wedding_invitation/race.html" style="width: 100%; aspect-ratio: 4 / 5; border: none; display: none;"></iframe>
+
+*Game not working? No worries —<a href="/assets/wedding_invitation/game.html" target="_blank">try this instead!🔗</a>
+
 
 ### With joy and blessings✨
 Yosias & Mey <br>
 And our families
 
 <!-- third gallery -->
-<div class="wed-image-wrapper">
-  <img src="/assets/wedding_invitation/images/content/moment/moment16.jpg" alt="Image 1">
+<div class="wed-image-wrapper up-fade-slide-in" >
+  <img src="/assets/wedding_invitation/images/content/moment/moment16.jpg" alt="Image 1" style="text-align: center;">
 </div>
 
 Big thanks to Bram, Dama, Epin, Ana, Ucen, and a guy from Amed for all the beautiful pictures! 🙌
@@ -358,10 +362,37 @@ Big thanks to Bram, Dama, Epin, Ana, Ucen, and a guy from Amed for all the beaut
         });
 
         setTimeout(() => {
-        // Hide loading screen
-        document.getElementById("loading-homescreen").style.display = "none";
-        // Show the button
-        document.getElementById("wed-close-btn").style.display = "inline-block";
-    }, 4000); // 5 seconds delay
+            // Hide loading screen
+            document.getElementById("loading-homescreen").style.display = "none";
+            // Show the button
+            document.getElementById("wed-close-btn").style.display = "inline-block";
+        }, 4000); // 5 seconds delay
+
+        document.addEventListener("DOMContentLoaded", () => {
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('in-view');
+              }
+            });
+          }, { threshold: 0.1 });
+
+          document.querySelectorAll('.left-fade-slide-in').forEach(el => {
+            observer.observe(el);
+          });
+
+          document.querySelectorAll('.right-fade-slide-in').forEach(el => {
+            observer.observe(el);
+          });
+
+          document.querySelectorAll('.up-fade-slide-in').forEach(el => {
+            observer.observe(el);
+          });
+
+          document.querySelectorAll('.upslow-fade-slide-in').forEach(el => {
+            observer.observe(el);
+          });
+        });
 
 </script>
+

@@ -593,3 +593,55 @@
 .verse-rotate5.rotated img:nth-child(2) {
     transform: rotateY(10deg) rotateX(15deg) translateZ(3.5em);
 }
+
+/* Base style: hidden and shifted to left */
+.left-fade-slide-in {
+    opacity: 0;
+    transform: translate(-30px, 30px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* When in view */
+.left-fade-slide-in.in-view {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* Base style: hidden and shifted to right */
+.right-fade-slide-in {
+    opacity: 0;
+    transform: translate(30px, 30px);
+    transition: opacity 1.4s ease-out, transform 1.4s ease-out;
+}
+
+/* When in view */
+.right-fade-slide-in.in-view {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* Base style: hidden and shifted to up */
+.up-fade-slide-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* When in view */
+.up-fade-slide-in.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Base style: hidden and shifted to up */
+.upslow-fade-slide-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+/* When in view */
+.upslow-fade-slide-in.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
